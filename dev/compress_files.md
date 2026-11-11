@@ -3,11 +3,13 @@
 ## zip
 
 Lo primero es comprobar la instalacion: `zip --version`
+
 ```bash
 zip -r archivo.zip carpeta/
 zip archivo.zip archivo1.txt archivo2.txt
 zip archivo.zip * -x "*.log"
 ```
+
 Descomprimir con: `unzip archivo.zip -d direcction/to/descompress`
 
 ## tar
