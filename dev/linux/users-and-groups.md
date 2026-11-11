@@ -24,6 +24,13 @@ Archivos importantes:
 
 ## Users
 
+### creacion de usuarios
+
+```bash
+sudo adduser manolo
+sudo usermod -aG docker manolo
+```
+
 ### Eliminacion de usuarios
 
 1. Revisamos si usuario tiene procesos activos:
