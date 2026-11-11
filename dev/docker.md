@@ -46,3 +46,7 @@ Lista los contenedores y servicios gestionados por Compose.
 Muestra los logs de uno o varios servicios.
 - `docker-compose build`
 Construye o reconstruye las imágenes de los servicios definidos en el archivo.
+
+## ejecutar comando o abrir terminal dentro de contenedor
+
+- `docker exec -it nombre_o_id_del_contenedor bash`
